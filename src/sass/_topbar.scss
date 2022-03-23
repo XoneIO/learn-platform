@@ -1,0 +1,132 @@
+.topbar {
+  color: #fff;
+  .logo-l {
+    height: 100px;
+  }
+  .topbar-learn-l {
+    font-size: 18px;
+    padding-left: 16px;
+    border-left: 2px solid #fff;
+    color: #fff;
+  }
+
+  .logo-s {
+    height: 30px;
+    margin-right: 8px;
+  }
+  .topbar-learn-s {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff
+  }
+  .nav-wrapper {
+    background-color: $dark-color;
+    box-shadow: none;
+
+    .navbar-text-style {
+      color: #FFF;
+      font-style: normal;
+      font-size: 18px;
+      margin: 0px 22px 8px 22px;
+      padding: 0;
+    }
+    .navbar-text-style:hover {
+      background-color: transparent;
+      border-bottom: 2px solid $blue;
+      color: $blue;
+      transition: all 3ms;
+    }
+  }
+
+  .dehaze {
+    font-size: 26px;
+    color: $blue;
+    cursor: pointer;
+  }
+}
+
+.github {
+  width: 35px;
+}
+
+.get-started-btn {
+  text-transform: capitalize;
+  background-color: $blue;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 32px !important;
+}
+
+.get-started-btn:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: $blue;
+}
+
+@media #{$large-and-up} {
+  nav {
+    height: 32px;
+    line-height: 32px;
+
+    #selected {
+      color: $blue;
+      border-bottom: 2px solid $blue !important;
+    }
+  }
+}
+
+.topbar-white {
+  padding: 10px 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  .logo-l {
+    height: 100px;
+  }
+  .topbar-white-learn-l {
+    font-size: 18px;
+    padding-left: 16px;
+    border-left: 2px solid $dark-color;
+    color: $dark-color;
+  }
+
+  .logo-s {
+    height: 30px;
+    margin-right: 8px;
+  }
+  .topbar-white-learn-s {
+    font-size: 18px;
+    font-weight: 600;
+    color: $dark-color;
+  }
+  .nav-wrapper {
+    background-color: #fff;
+    box-shadow: none;
+
+    .navbar-text-style {
+      color: $dark-color;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      padding: 0px 24px 8px 24px;
+    }
+
+    .github-link{
+      background: none;
+    }
+
+    .navbar-text-style:hover{
+      color: $blue;
+      background: none;
+    }
+  }
+
+  .dehaze {
+    font-size: 26px;
+    color: $blue;
+    cursor: pointer;
+  }
+
+  #selected {
+    color: $blue;
+  }
+}

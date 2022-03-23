@@ -1,0 +1,22 @@
+@import 'materialize';
+@import 'variable';
+@import 'guidelines';
+@import 'topbar';
+@import 'footer';
+@import 'sidenav';
+@import 'content';
+
+//landing
+@import 'landing/landing';
+@import 'cards';
+
+//course
+@import 'course/course';
+
+//topic
+@import 'topic/topic'; 
+
+body{
+  font-family: $poppins;
+  color: $desc-color;
+}

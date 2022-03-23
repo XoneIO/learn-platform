@@ -1,0 +1,219 @@
+.course {
+  .topbar-breadcrumb {
+    padding: 16px 32px;
+    box-shadow: 0 8px 6px -6px black;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 14px;
+    a {
+      color: $desc-color;
+    }
+    .breadcrumb-icon {
+      font-size: 18px;
+      padding: 0 8px;
+    }
+  }
+
+  .row-top-padding {
+    padding: 16px 0 300px 0;
+
+    @media #{$large-and-up} {
+      padding: 16px 0 200px 0;
+    }
+  }
+
+  .row {
+    margin-bottom: 0;
+
+    .left-wrapper,
+    .right-wrapper {
+      background-color: #fff;
+    }
+
+    .left-wrapper {
+      padding: 32px 8px 32px 18px;
+      .selected {
+        .dots {
+          color: $blue;
+          border: 1.5px solid $blue !important;
+        }
+        .point {
+          color: $blue !important;
+        }
+      }
+      .timeline-border {
+        display: flex;
+        border-left: 2px solid $desc-color;
+
+        .dots {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background-color: #eee;
+          border: 1.5px solid $desc-color;
+          text-align: center;
+          position: relative;
+          right: 12px;
+          font-size: 11px;
+          font-weight: 600;
+        }
+
+        .point {
+          padding-bottom: 24px;
+          font-size: 13px;
+          font-weight: 500;
+          color: $desc-color;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .middle-padding {
+      @media #{$large-and-up} {
+        padding: 0;
+      }
+      .middle-wrapper {
+        background-color: #fff;
+        .breadcrumbs {
+          padding: 16px 0 0 0;
+          a {
+            color: #bdbdbd;
+            font-size: 14px;
+            margin-right: 8px;
+          }
+        }
+
+        .points {
+          font-size: 16px;
+          padding-left: 8px;
+        }
+        .on-this-page {
+          font-weight: 600;
+          margin-bottom: 8px;
+          color: $desc-color;
+          font-size: 16px;
+          a {
+            color: $desc-color !important;
+          }
+        }
+        .dropdown-content {
+          position: inherit;
+          width: auto;
+        }
+        nav {
+          box-shadow: none;
+          border: 0;
+          background-color: transparent;
+          margin-left: 24px;
+          height: auto !important;
+          li {
+            list-style-type: square !important;
+            float: none;
+            color: $desc-color;
+          }
+          a {
+            color: $desc-color !important;
+          }
+        }
+      }
+      .buttons {
+        display: flex;
+        a {
+          cursor: pointer;
+          color: $desc-color;
+        }
+        .button1 {
+          margin-right: 16px;
+          background-color: #fff;
+          padding: 12px;
+        }
+        .button2 {
+          background-color: #fff;
+          width: 100%;
+          padding-right: 16px;
+          .next-topic {
+            float: right;
+            display: flex;
+            align-items: center;
+            .next-topic-text {
+              font-size: 18px;
+              font-weight: 600;
+              margin-right: 16px;
+            }
+          }
+        }
+      }
+      .buttons-l {
+        a {
+          color: $desc-color;
+          font-weight: 600;
+          font-size: 16px;
+          .previous {
+            padding: 24px 0 24px 16px;
+            background-color: #fff;
+            display: flex;
+          }
+          .previous:hover,
+          .next:hover {
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            position: relative;
+            top: 2px;
+            transition: all 0.3s;
+          }
+          .next {
+            padding: 24px 16px 24px 0;
+            background-color: #fff;
+            float: right;
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+          }
+          .next-topic {
+            color: $blue;
+          }
+        }
+      }
+    }
+
+    .right-wrapper {
+      padding: 32px 16px;
+      font-size: 16px;
+      color: $desc-color;
+      nav {
+        box-shadow: none;
+        border: 0;
+        background-color: transparent;
+        margin-left: 24px;
+        height: auto;
+        li {
+          float: none;
+          color: $desc-color;
+
+          ul {
+            margin:8px 0 0 0 !important;
+            li {
+              list-style-type: disc !important;
+            }
+          }
+        }
+        a {
+          padding: 0 0 0 4px;
+        }
+      }
+      .selected {
+        color: $blue !important;
+        a {
+          color: $blue !important;
+        }
+      }
+      .on-this-page {
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+      a {
+        color: $desc-color;
+        font-size: 13px;
+      }
+    }
+  }
+}

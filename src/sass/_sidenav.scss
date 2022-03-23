@@ -1,0 +1,44 @@
+.sidenav {
+  border-radius: 90px 0 0 90px;
+
+  .sidenav-style {
+    position: relative;
+    top: 8vw;
+    .sidenav-logo {
+      margin: 0 0 8px 32px;
+    }
+    .sidenav-text-style {
+      padding: 15px 0 15px 50px;
+      color: $dark-color;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px !important;
+      line-height: 23px !important;
+    }
+    .tryitout {
+      height: 30px;
+    }
+    .sidenav-btn {
+      margin: 24px 0 24px 32px;
+      text-transform: none;
+      background-color: $blue;
+      border-radius: 5px;
+      width: 60%;
+      font-size: 14px;
+      height: 35px;
+      line-height: 35px;
+    }
+  }
+  .community-style {
+    height: 30px;
+  }
+  .footer-icons {
+    justify-content: center;
+    margin-top: 16px;
+    position: relative;
+    right: 6vw;
+    a {
+      padding: 0 16px;
+    }
+  }
+}

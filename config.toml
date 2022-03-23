@@ -1,0 +1,6 @@
+baseURL = "https://learn.space-cloud.io"
+languageCode = "en-us"
+title = "Learn"
+
+[markup.goldmark.renderer]
+unsafe=true
