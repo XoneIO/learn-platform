@@ -1,5 +1,5 @@
 .content {
-  color: $desc-color;
+  color: $content-color;
   padding: 24px 24px 40px 24px;
   @media #{$large-and-up} {
     padding: 32px 48px 56px 48px;
@@ -58,7 +58,7 @@
   }
 
   p {
-    color: $desc-color;
+    color: $content-color;
     line-height: 1.7;
     font-size: 14px !important;
     margin-top: 12px;
